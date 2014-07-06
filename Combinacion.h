@@ -11,4 +11,18 @@
 
 #include <iostream>
 
+class Combinacion {
+    
+public:
+    
+    int a, b, c, d, e, f;
+    int veces;
+    
+    Combinacion();
+    Combinacion(int a, int b, int c, int d, int e, int f);
+    
+    void masmas();
+    
+};
+
 #endif /* defined(__AnalizadorPrimitiva__Combinacion__) */
