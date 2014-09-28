@@ -87,6 +87,13 @@ int main(int argc, const char * argv[])
         fin.close();
     }
     
+    ofstream salida("prob.csv");
+    
+    salida << "A,B,C,D,E,F,Veces,Prob" << endl;
+    
+    for (int i = 0; i<combs.size(); i++) {
+        salida << combs[i].a << "," << combs[i].b << "," << combs[i].c << "," << combs[i].d << "," << combs[i].e << "," << combs[i].f << "," << combs[i].veces << "," << combs[i].prob << endl;
+    }
     
     return 0;
 }

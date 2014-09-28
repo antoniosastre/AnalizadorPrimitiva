@@ -17,6 +17,7 @@ public:
     
     int a, b, c, d, e, f;
     int veces;
+    int prob;
     
     Combinacion();
     Combinacion(int a, int b, int c, int d, int e, int f);
